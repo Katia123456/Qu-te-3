@@ -1,0 +1,114 @@
+nav {
+    display: flex;
+    margin: 0 auto ;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap:wrap;
+    align-content: center;
+    width: 90%;
+    height: 100px;
+    padding: 3px;
+    margin: 0 auto;
+    color: white;
+    background: rgb(136, 12, 136);
+  }
+  
+  li {
+    display: flex;
+    justify-content: center;
+    margin: 6px 6px 6px;
+    width: 90px;
+    height: 90px;
+    background: rgb(136, 12, 136);
+    align-items: center;
+    cursor:all-scroll;
+    border-radius: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium; 
+  }
+ 
+  h1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    align-content: space-around;
+    border-radius: 30px;
+    width: 70%;
+    height: 120px;
+    padding: 3px;
+    margin: 0 auto;
+    background: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .active:hover {
+    display: flex;
+    cursor:pointer;
+    background: white;
+    color:rgb(136, 12, 136) ;
+    width: 90px;
+    height: 90px;
+    
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    align-items: center;
+  }
+form {
+  width: 400px;
+  margin: 0 auto;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+  text-align:left;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+  background: gainsboro;
+}
+
+button[type="submit"] {
+  background-color: rgb(147, 15, 147);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+footer {
+  text-align: left;
+  background-color: #f2f2f2;
+  padding: 10px;
+  font-size: 14px;
+  color: #777;
+}
+  
+  
+  
+  
